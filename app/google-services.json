@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "893229909953",
+    "project_id": "canto-d2d2e",
+    "storage_bucket": "canto-d2d2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893229909953:android:0936e938bc6cbf68655140",
+        "android_client_info": {
+          "package_name": "com.example.canto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893229909953-lk047iqmd4p1ns53c4la9v8m90j4gkqj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.canto",
+            "certificate_hash": "ed2168972922e6a797c52e5dccc427becfbc0683"
+          }
+        },
+        {
+          "client_id": "893229909953-hj545r5s7ord1rrido1qff328r5sqjo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqvbVaxVG-nN1CyaeTC-kp0yz1UZThgEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893229909953-hj545r5s7ord1rrido1qff328r5sqjo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
