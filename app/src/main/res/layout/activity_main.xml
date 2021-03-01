@@ -14,50 +14,54 @@
        android:layout_centerInParent="true">
 
        <ImageView
-           android:layout_width="429dp"
+           android:id="@+id/logo"
+           android:layout_width="match_parent"
            android:layout_height="200dp"
            android:src="@drawable/logo"
-           android:id="@+id/logo"/>
+           android:layout_marginBottom="150dp"/>
 
 
    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:orientation="horizontal"/>
 
 
 
 
-    <info.hoang8f.widget.FButton
-        android:layout_width="150dp"
+
+    <Button
+        android:layout_width="200dp"
         android:layout_marginTop="500dp"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:id="@+id/btSignup"
         android:text="Sign Up"
+        android:textSize="30sp"
         android:textColor="@android:color/black"
-        app:buttonColor="@color/colorPrimaryDark"
-        android:shadowColor="@color/colorAccent"
-        app:shadowEnabled="true"
+
+        android:shadowColor="@android:color/white"
+
         android:height="5dp"
-        app:cornerRadius="4dp"
+
+
 
         />
-    <info.hoang8f.widget.FButton
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
+    <Button
+
+        android:layout_width="200dp"
+        android:layout_height="70dp"
         android:id="@+id/btsignIn"
-        android:text="Sign In"
+        android:text="SIGN IN"
+
+        android:textSize="30sp"
         android:textColor="@android:color/black"
-        app:buttonColor="@color/colorPrimaryDark"
+
         android:shadowColor="@color/colorAccent"
-        app:shadowEnabled="true"
+
         android:height="5dp"
-        app:cornerRadius="4dp"
-        android:layout_alignRight="@+id/btSignup"
-        android:layout_marginRight="-260dp"
-        android:layout_marginTop="500dp"
+
+
+        android:layout_alignEnd="@+id/btSignup"
+
+        android:layout_marginTop="-150dp"
+        android:layout_below="@+id/btSignup"
 
 
 
