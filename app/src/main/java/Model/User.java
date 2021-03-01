@@ -22,6 +22,14 @@ public class User {
         return Password;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "Name='" + Name + '\'' +
+                ", Password='" + Password + '\'' +
+                '}';
+    }
+
     public void setPassword(String password) {
         Password = password;
     }
